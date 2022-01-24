@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.speedometer-app-container {
+  background-color: rgb(16, 17, 17);
+  min-height: 100vh;
+}
+.speedometer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.speedometer-image {
+  height: 200px;
+  width: 300px;
+}
+.speed-count {
+  color: goldenrod;
+}
+.heading {
+  color: beige;
+}
+.speed-limit-text {
+  color: aliceblue;
+}
+button {
+  margin: 5px;
+  border: 2px solid yellowgreen;
+}
